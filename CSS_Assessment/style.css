@@ -1,0 +1,60 @@
+
+ * {
+    box-sizing: border-box;
+  text-align: center;
+  }
+  
+  body {
+    font-size: 15px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    float: top;
+    text-align: center;
+    
+    margin-bottom: 30px;
+    padding: 1px;
+   
+    color: #333;
+    background: rgb(104, 104, 104);
+  }
+  
+  section {
+    padding: 180px;
+    margin-bottom: 185px;
+    background: #FFA500;
+  }
+  
+  #left {
+    
+    float: left;
+    width:50%;
+    height: 480px;
+    background: hsl(239, 100%, 46%);
+  }
+  
+  
+  
+  #right {
+    
+    float: right;
+    width: 25%;
+    height: 480px;
+    background: rgb(224, 17, 17);
+  }
+  
+  
+  
+  footer {
+    padding: .5px;
+ 
+    
+    margin-bottom: 10px;
+    color: #333;
+    clear: both;
+    color: #333;
+    background: rgb(0, 133, 29);
+  }
+  
