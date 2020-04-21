@@ -1,0 +1,93 @@
+
+
+body, html {
+    height: 100%;
+    margin:0px;
+    padding:0px;
+  }
+
+  body{
+    
+    background-image: url(../images/green_dust_scratch_@2X.png);
+    color: #777777;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  
+
+  .navBg{
+  
+    background-color: #ffffff;
+    border-bottom: medium solid #cccccc;
+    height: 7.0%;
+  }
+
+  .bg-Main {
+    
+    width: 750px;    
+    background-color: #ffffff;
+    border: thin solid #cccccc ;
+    margin: 5px;
+  }
+ .mHeader{
+font-family: 'Georgia', Times, Times New Roman, serif;;
+padding: 5px;
+color: #4aaaa5;
+ 
+  
+}
+ 
+
+  .brandBG{
+    background-color: #4aaaa5;
+    color: white;
+    border: thin solid #cccccc ;
+  }
+
+.testline{
+ border-bottom: medium double #cccccc;
+ padding-bottom: 5px;
+}
+
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=text], select, textarea {
+    color: #777777;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+.bottomC{
+   
+    background-color:#666666;
+   position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 8px solid teal;
+}
+
+
+
+  .navbar-nav  li a:hover {
+    color: #4aaaa5!important;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #777777 !important;
+  }
