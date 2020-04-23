@@ -1,18 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hangman Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script  src=assets/javascript/game.js></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<div class ="jumbotron text-center">
-    <h1>WELCOME TO MY HANGMAN GAME</h1>
-</div>
-    
+    <div class="jumbotron text-center">
+        <h1>NETFLIX HANGMAN</h1>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12 ">
+            
+                   
+                        <img src="assets\images\netflixLogo.jpg" class="show-Poster" style="width:100% " alt="Image">
+                   
+               
+
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="row ">
+            <div class="col-md-3"> 
+                <div class="score-board">
+                    <div class=" padding">
+                        <div>
+                            <h4>Wins</h4>
+                            <p class="wins">0</p> 
+                        </div>
+                        <div>
+                            <h4>Loss</h4>
+                            <p class="lose">0</p> 
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-6 ">
+                        <div class="start-message">
+                            <h2 class="new-game">Guess the Netflix Show</h2>
+                            <h3 class="get-started pulse">Press space to get started!</h3>
+                        </div>
+                        <div class="current-show">
+                            <h4>Guess The Show!</h4>
+                            <p class="current-show">&nbsp;</p>
+   
+                    </div>
+              
+            </div>
+            <div class="col-md-3">
+                <div class="guesses">
+                    <div class="padding">
+                        <div >
+                            <h4>Remaining Guesses</h4>
+                            <p class="remaining-guesses">0</p> 
+                        </div>
+                        <div>
+                            <h4>Guessed Letters</h4>
+                            <p class="guessed-letters">0</p> 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio class="theme-song netflix-startup" src="assets/audio/netflix-startup.mp3" autostart="false"></audio>
+        <audio class="themes orange-theme" src="assets/audio/themes/orange-theme.mp3" autostart="false"></audio>
+        <audio class="themes stranger-theme" src="assets/audio/themes/stranger-theme.mp3" autostart="false"></audio>
+        <audio class="themes narcos-theme" src="assets/audio/themes/narcos-theme.mp3" autostart="false"></audio>
+        <audio class="themes jessica-theme" src="assets/audio/themes/jessica-theme.mp3" autostart="false"></audio>
+        <audio class="themes luke-theme" src="assets/audio/themes/luke-theme.mp3" autostart="false"></audio>
+        <audio class="themes dare-theme" src="assets/audio/themes/daredevil-theme.mp3" autostart="false"></audio>
+
+        <audio class="sound-effect correct-press-sound" src="assets/audio/correct-press.mp3" autostart="false"></audio>
+        <audio class="sound-effect wrong-press-sound" src="assets/audio/wrong-press.mp3" autostart="false"></audio>
+        <footer class="footer"></footer>
+        <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>

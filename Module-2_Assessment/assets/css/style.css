@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700|Lato:400,700,900');
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #292929;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Amiri", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h2.span {
+    font-weight: bold;
+}
+
+p {
+    color: #292929;
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+
+.jumbotron {
+    padding-bottom: 0;
+    background-color: black ;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    color: rgb(136, 7, 2);
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+    font-size: 3.857em;
+    margin-top: 0;
+}
+
+body{
+ background-color: rgb(255, 255, 255);
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*---- Message ----*/
+
+h2.new-game {
+    margin: 10px 0;
+}
+
+.start-message h2 {
+    font-size: 14px;
+}
+
+.start-message h3 {
+    font-size: 14px;
+}
+
+.pulse {
+    color: rgb(151, 7, 7);
+    animation: pulse 2s alternate infinite;
+}
+
+
+
+h2.game-end {
+    width: 100%;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #A6C043;
+    margin-bottom: 50px;
+}
+
+h2.game-end span {
+    display: block;
+    width: 100%;
+    font-family: "Amiri", Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    font-weight: 400;
+    color: #292929;
+    border-top: 5px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.current-show {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@keyframes letter-spawn {
+    0% {
+        opacity: 0;
+        font-size: 0;
+    }
+    50% {
+        opacity: 1;
+        font-size: 40px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+span {
+  font-size: 2em;
+  font-family: impact;
+ 
+}
+
+.current-show{
+    display: none;
+}
+.score-board {
+    display: none;
+    
+}
+
+.guesses{
+    display: none;
+}
+
+.letter {
+    animation-name: letter-spawn;
+    animation-duration: 1s;
+}
+.space {
+    margin: 0;
+}
